@@ -1,0 +1,4 @@
+chart_cache/
+*.pth
+model.pth
+ai_capstone_pytorch_vit_model_state_dict.pth
