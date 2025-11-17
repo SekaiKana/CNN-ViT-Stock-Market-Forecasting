@@ -62,7 +62,7 @@ A 1x1 Convolution layer flattens the CNN's feature maps into a 1D sequence of pa
 
 **File**: `classification_model.ipynb`
 
-**Goal**: Pivot to a simpler, more realistic binary classification task (will the price be higher or lower in 5 days?)
+**Goal**: Pivot to a simpler, more realistic binary classification task (will the price be higher or lower in 5 days)
 
 **Data Handling**:
 - Per-ticker, sequential train/validation split (80/20) used to prevent data leakage
@@ -102,14 +102,3 @@ pip install yfinance mplfinance torch torchvision numpy pandas
 - **Classification**: Binary directional prediction shows more promise, achieving ~54% accuracy - a small but potentially significant edge in financial markets
 - **Approach**: Treating stock prediction as a computer vision problem is viable, particularly for directional forecasting rather than precise price prediction
 
-## 📝 License
-
-[Add your license information here]
-
-## 🤝 Contributing
-
-[Add contribution guidelines here]
-
-## 📧 Contact
-
-[Add your contact information here]
